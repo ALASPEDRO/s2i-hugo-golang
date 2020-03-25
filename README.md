@@ -11,5 +11,5 @@ export S2INAME="s2i-hugo-go"
 2. Build image
 
 ```
-oc new-build centos/s2i-base-centos7~https://github.com/cip-core-mirrors/s2i-hugo-golang --strategy docker --name $S2INAME
+oc new-build centos/s2i-base-centos7~https://github.com/ALASPEDRO/s2i-hugo-golang --strategy docker --name $S2INAME
 ```
