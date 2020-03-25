@@ -32,6 +32,5 @@ RUN chown -R 0:0 /opt/app-root/
 RUN chmod -R 774 /opt/app-root/
 
 USER jboss
-ENTRYPOINT ["/home/jboss/entrypoint.sh"]
 WORKDIR /projects
 CMD tail -f /dev/null
